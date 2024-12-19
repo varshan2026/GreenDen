@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GreenDen</title>
+
+    <!-- Tailwind CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Jost:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+
+    <style>
+        body{
+            font-family: "Jost", serif;
+        }
+    </style>
+    
+</head>
+<body>
+
+    <nav class="bg-green-100 p-3 flex items-center justify-between px-8 shadow-xl sticky top-0">
+          
+        <h1 class="text-2xl font-bold">GreenDen</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-7 lg:hidden">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+        </svg>
+
+        <ul class="flex gap-5 text-gray-600 hidden lg:flex">
+
+            <li class="hover:underline hover:text-black"><a href="#">Home</a></li>
+            <li class="hover:underline hover:text-black"><a href="product.html">Product</a></li>
+            <li class="hover:underline hover:text-black"><a href="contact.html">Contacts</a></li>
+
+        </ul>
+
+    </nav>
+
+    <section class="bg-green-100 p-4 md:p-10 flex justify-center">
+        <div>
+            <p class="p-2">We offer you a wide range of Artificial and natural flowers</p>
+            <h1 class="text-2xl md:text-5xl font-bold p-2">Plants for your interior</h1>
+            <div class="p-2"> 
+                <button class="bg-black rounded p-2 text-white">Shop Now</button>
+                <button class="border border-black rounded p-2">Watch Video</button>
+            </div>
+            <p class="p-2">160+ Plants & Species | 100+ Clients</p>
+        </div>
+
+        <div class="hidden md:block">
+            <img src="./banner.png" alt="rose" class="w-80">
+        </div>
+        
+    </section>
+
+    <section class="p-3 text-center">
+        <h2 class="text-3xl font-bold mb-2">About Us</h2>
+        <p class="mb-4">Feel the beauty of nature inside your space</p>
+
+        <div class="md:flex">
+
+            <div class="border border-black p-3 m-4">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 inline">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
+                </svg>
+                <h2 class="text-2xl font-medium mb-3">Large Assortment</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, alias nisi. Similique, tempora dolorum! Nemo dolor tempora numquam provident distinctio laudantium iste iure quod, ullam soluta consequuntur quo facere quidem.</p>
+            </div>
+
+            <div>
+                <div class="border border-black p-3 m-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 inline">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                    </svg>   
+                    <h2 class="text-2xl font-medium mb-3">Free & Fast Shipping</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, alias nisi. Similique, tempora dolorum! Nemo dolor tempora numquam provident distinctio laudantium iste iure quod, ullam soluta consequuntur quo facere quidem.</p>
+                </div>
+            </div>
+    
+            <div>
+                <div class="border border-black p-3 m-4">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-12 inline">
+                        <path stroke-linecap="round" stroke-linejoin="round" d="M14.25 9.75v-4.5m0 4.5h4.5m-4.5 0 6-6m-3 18c-8.284 0-15-6.716-15-15V4.5A2.25 2.25 0 0 1 4.5 2.25h1.372c.516 0 .966.351 1.091.852l1.106 4.423c.11.44-.054.902-.417 1.173l-1.293.97a1.062 1.062 0 0 0-.38 1.21 12.035 12.035 0 0 0 7.143 7.143c.441.162.928-.004 1.21-.38l.97-1.293a1.125 1.125 0 0 1 1.173-.417l4.423 1.106c.5.125.852.575.852 1.091V19.5a2.25 2.25 0 0 1-2.25 2.25h-2.25Z" />
+                      </svg>                  
+                    <h2 class="text-2xl font-medium mb-3">24/7 Support</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, alias nisi. Similique, tempora dolorum! Nemo dolor tempora numquam provident distinctio laudantium iste iure quod, ullam soluta consequuntur quo facere quidem.</p>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="p-4 text-center">
+        <h1 class="text-3xl font-bold mt-5">Best Seller</h1>
+        
+        <div class="mt-10 grid grid-cols-2 md:grid-cols-4 gap-5">
+            <div>
+                <img src="./pot (1).png" alt="pot1" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p>Pot</p>
+                <p>&#8377;200</p>
+            </div>
+
+            <div>
+                <img src="./pot (2).png" alt="pot1" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p>Pot</p>
+                <p>&#8377;200</p>
+            </div>
+
+            <div>
+                <img src="./pot (3).png" alt="pot1" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p>Pot</p>
+                <p>&#8377;200</p>
+            </div>
+
+            <div>
+                <img src="./pot (4).png" alt="pot1" class="inline hover:shadow-xl transform hover:-translate-y-2">
+                <p>Pot</p>
+                <p>&#8377;200</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-4 ">
+        <h1 class="text-3xl font-bold mb-4 text-center">Customer Review</h1>
+
+        <div class="md:grid grid-cols-2 lg:grid-cols-4 gap-5 text-white m-1 mt-3">
+            <div class="p-3 bg-green-900 container m-2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam delectus commodi consequatur sunt, corporis optio nostrum libero ipsam perferendis molestias quibusdam odio culpa animi impedit nam, atque facilis recusandae voluptatibus?</p>
+                <p class="font-bold text-yellow-300">Peter Park</p>
+            </div>
+
+            <div class="p-3 bg-green-900 container m-2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam delectus commodi consequatur sunt, corporis optio nostrum libero ipsam perferendis molestias quibusdam odio culpa animi impedit nam, atque facilis recusandae voluptatibus?</p>
+                <p class="font-bold text-yellow-300">Peter Park</p>
+            </div>
+
+            <div class="p-3 bg-green-900 container m-2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam delectus commodi consequatur sunt, corporis optio nostrum libero ipsam perferendis molestias quibusdam odio culpa animi impedit nam, atque facilis recusandae voluptatibus?</p>
+                <p class="font-bold text-yellow-300">Peter Park</p>
+            </div>
+
+            <div class="p-3 bg-green-900 container m-2">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam delectus commodi consequatur sunt, corporis optio nostrum libero ipsam perferendis molestias quibusdam odio culpa animi impedit nam, atque facilis recusandae voluptatibus?</p>
+                <p class="font-bold text-yellow-300">Peter Park</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="p-4 text-center">
+        <h1 class="text-3xl font-bold mt-5">Join our News Letter</h1>
+        <p>Signup for our email newspaper to get exclusive discounts, updates & more</p>
+        <input type="text" class="border border-black p-2 m-3" style="width: 80%;">
+        <button class="bg-black text-white p-3">Subscrip</button>
+    </section>
+
+    <section class="bg-green-100 p-10 flex flex-col gap-5">
+        <h1 class="text-4xl font-bold">GreenDen</h1>
+
+        <p>The standard chunk of lorem ipsum used since 1500s</p>
+
+        <p>@ 2024 greenday.com</p>
+    </section>
+    
+</body>
+</html>
